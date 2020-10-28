@@ -1,0 +1,29 @@
+{
+  "name": "leaflet-global-switch",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FCOO/leaflet-global-switch",
+  "authors": [
+    "Niels Holt"
+  ],
+  "description": "",
+  "main": [
+    "dist/leaflet-global-switch.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FCOO/leaflet-global-switch.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "es6"
+  ]
+}
