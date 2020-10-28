@@ -1,17 +1,17 @@
 {
-  "name": "leaflet-global-switch",
+  "name": "leaflet-global-switches",
   "version": "1.0.0",
-  "homepage": "https://github.com/FCOO/leaflet-global-switch",
+  "homepage": "https://github.com/FCOO/leaflet-global-switches",
   "authors": [
     "Niels Holt"
   ],
   "description": "",
   "main": [
-    "dist/leaflet-global-switch.js"
+    "dist/leaflet-global-switches.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/FCOO/leaflet-global-switch.git"
+    "url": "git://github.com/FCOO/leaflet-global-switches.git"
   },
   "dependencies": {},
   "devDependencies": {},
