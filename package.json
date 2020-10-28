@@ -1,12 +1,12 @@
 {
-  "name": "leaflet-global-switch",
-  "version": "1.0.0",
-  "homepage": "https://github.com/FCOO/leaflet-global-switch",
+  "name": "leaflet-global-switches",
+  "version": "1.0.1",
+  "homepage": "https://github.com/FCOO/leaflet-global-switches",
   "author": "Niels Holt nho@fcoo.dk",
   "description": "package.json is only use for building the package. see bower.json for more info",
   "repository": {
     "type": "git",
-    "url": "git://github.com/FCOO/leaflet-global-switch.git"
+    "url": "git://github.com/FCOO/leaflet-global-switches.git"
   },
   "dependencies": {},
   "devDependencies": {

@@ -1,9 +1,9 @@
 /****************************************************************************
-	leaflet-global-switch.js,
+	leaflet-global-switches.js,
 
 	(c) 2020, FCOO
 
-	https://github.com/FCOO/leaflet-global-switch
+	https://github.com/FCOO/leaflet-global-switches
 	https://github.com/FCOO
 
     Setting global switches for leaflet

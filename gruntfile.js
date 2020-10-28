@@ -1,7 +1,7 @@
 /***********************************************
-gruntfile.js for leaflet-global-switch
+gruntfile.js for leaflet-global-switches
 
-https://github.com/FCOO/leaflet-global-switch
+https://github.com/FCOO/leaflet-global-switches
 
 ***********************************************/
 
