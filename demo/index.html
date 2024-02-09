@@ -9,29 +9,24 @@
 	<meta name='copyright' content='FCOO'>
 	<meta name='owner' content='FCOO'>
 
-  <link  href="bower_components.css" rel="stylesheet">	
-  <link  href="../src/leaflet-global-switch.css" rel="stylesheet">	
 </head>
 
 <body>
-	<div id="map" style="width: 800px; height: 600px"></div>
-
-
-	
-	
 	<script src="bower_components.js"></script>
-	<script src="../src/leaflet-global-switch.js"></script>
+	<script src="../src/leaflet-global-switches.js"></script>
 	<script>
-		$(function() {
-			var map = L.map('map').setView([56.2, 11.5], 6);
-			L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				maxZoom: 18,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors</a>'
-      }).addTo(map);
+    
+        var modernizrDevice = new window.ModernizrDevice({
+                scale    : false,
+                modernizr: {}
+            });
 
-			var myLeafletGlobalSwitch = new L.LeafletGlobalSwitch( /*options*/ );
-			myLeafletGlobalSwitch.addTo(map);
-    });
+
+        document.write('modernizrDevice.isIos=' + modernizrDevice.isIos +'<br>');
+        document.write('modernizrDevice.ipad=' + modernizrDevice.ipad() +'<br>');
+
+        console.log('L_DISABLE_3D', window.L_DISABLE_3D);        
+        console.log('modernizrDevice', window.modernizrDevice);        
 
 	</script>
 </body>

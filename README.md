@@ -3,9 +3,7 @@
 
 
 ## Description
-Setting [Global Switches](https://leafletjs.com/reference-1.7.1.html#global-switches) for [Leaflet](https://leafletjs.com/)
-
-Last version of [Leaflet](https://leafletjs.com/) = **1.7.1**
+Setting [Global Switches](https://leafletjs.com/reference.html#global-switches) for [Leaflet](https://leafletjs.com/)
 
 ## Installation
 ### bower

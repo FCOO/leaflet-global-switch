@@ -1,6 +1,6 @@
 {
   "name": "leaflet-global-switches",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "homepage": "https://github.com/FCOO/leaflet-global-switches",
   "authors": [
     "Niels Holt"
@@ -13,7 +13,9 @@
     "type": "git",
     "url": "git://github.com/FCOO/leaflet-global-switches.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "modernizr-device": "fcoo/modernizr-device#^4.0.0"
+  },
   "devDependencies": {},
   "license": "MIT",
   "ignore": [
