@@ -5955,7 +5955,7 @@ lodash._baseuniq@~4.6.0:
 lodash._createset@~4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/lodash._createset/-/lodash._createset-4.0.3.tgz#0f4659fbb09d75194fa9e2b88a6644d363c9fe26"
-  integrity sha512-GTkC6YMprrJZCYU3zcqZj+jkXkrXzq3IPBcF/fIPpNEAB4hZEtXU8zp/RwKOvZl43NUmwDbyRk3+ZTbeRdEBXA==
+  integrity sha1-D0ZZ+7CddRlPqeK4imZE02PJ/iY=
 
 lodash._root@~3.0.0:
   version "3.0.1"
@@ -6035,7 +6035,7 @@ lodash.reduce@^4.4.0:
 lodash.reject@^4.4.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.reject/-/lodash.reject-4.6.0.tgz#80d6492dc1470864bbf583533b651f42a9f52415"
-  integrity sha512-qkTuvgEzYdyhiJBx42YPzPo71R1aEr0z79kAv7Ixg8wPFEjgRgJdUsGMG3Hf3OYSF/kHI79XhNlt+5Ar6OzwxQ==
+  integrity sha1-gNZJLcFHCGS79YNTO2UfQqn1JBU=
 
 lodash.some@^4.4.0:
   version "4.6.0"
@@ -6362,6 +6362,13 @@ minipass@^2.3.5, minipass@^2.6.0, minipass@^2.9.0:
     yallist "^3.0.0"
 
 minipass@^3.1.1, minipass@^3.1.5, minipass@^3.1.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-3.3.6.tgz#7bba384db3a1520d18c9c0e5251c3444e95dd94a"
+  integrity sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==
+  dependencies:
+    yallist "^4.0.0"
+
+minipass@^3.1.6:
   version "3.3.6"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-3.3.6.tgz#7bba384db3a1520d18c9c0e5251c3444e95dd94a"
   integrity sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==
@@ -9244,6 +9251,15 @@ tap-parser@^11.0.0, tap-parser@^11.0.1:
     minipass "^3.1.6"
     tap-yaml "^1.0.0"
 
+tap-parser@^11.0.0:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/tap-parser/-/tap-parser-11.0.2.tgz#5d3e76e2cc521e23a8c50201487b273ca0fba800"
+  integrity sha512-6qGlC956rcORw+fg7Fv1iCRAY8/bU9UabUAhs3mXRH6eRmVZcNPLheSXCYaVaYeSwx5xa/1HXZb1537YSvwDZg==
+  dependencies:
+    events-to-array "^1.0.1"
+    minipass "^3.1.6"
+    tap-yaml "^1.0.0"
+
 tap-yaml@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/tap-yaml/-/tap-yaml-1.0.2.tgz#62032a459e5524e10661c19ee9df5d33d78812fa"
@@ -9463,7 +9479,7 @@ tough-cookie@~2.5.0:
   resolved "https://registry.yarnpkg.com/traverse/-/traverse-0.3.9.tgz#717b8f220cc0bb7b44e40514c22b2e8bbc70d8b9"
   integrity sha512-iawgk0hLP3SxGKDfnDJf8wTz4p2qImnyihM5Hh/sGvQ3K37dPi/w8sRhdNIxYA1TwFwc5mDhIJq+O0RsvXBKdQ==
 
-treport@^3.0.3:
+treport@^3.0.2:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/treport/-/treport-3.0.4.tgz#05247fa7820ad3afe92355e4cf08fe41a933084b"
   integrity sha512-zUw1sfJypuoZi0I54woo6CNsfvMrv+OwLBD0/wc4LhMW8MA0MbSE+4fNObn22JSR8x9lOYccuAzfBfZ2IemzoQ==
